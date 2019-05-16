@@ -27,8 +27,7 @@ PRODUCT_PACKAGES += \
 
 # Kernel
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/recovery/kernel:kernel \
-    $(LOCAL_PATH)/recovery/dt.img:dt.img 
+    $(LOCAL_PATH)/recovery/kernel:kernel
 
 # sdcardfs
 PRODUCT_PROPERTY_OVERRIDES += \
